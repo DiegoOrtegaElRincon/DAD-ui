@@ -1,7 +1,8 @@
-import MainPage from '../pages/(layout)/main/index';
+import Main from '../pages/(layout)/Main'
+
 
 export default function Home() {
   return (
-    <MainPage/>
+    <Main />
   )
 }
