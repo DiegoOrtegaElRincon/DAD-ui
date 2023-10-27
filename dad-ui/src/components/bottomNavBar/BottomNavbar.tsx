@@ -12,7 +12,7 @@ export default function BottomNavBar() {
       <nav className="NavBar">
         <div className='menu'>
           <div className='home'>
-            <Link href="/main"><HiHome size={30} /></Link>
+            <Link href="/"><HiHome size={30} /></Link>
           </div>
           <div className='statistics'>
             <Link href="/statistics"><SiGoogleanalytics size={30} /></Link>

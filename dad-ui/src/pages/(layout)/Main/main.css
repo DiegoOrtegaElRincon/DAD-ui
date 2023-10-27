@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* This sets the direction to be vertical, creating a single column. */
+}
+
+.box {
+    padding: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    position: relative;
+    background: linear-gradient(to bottom, #ff5733, #ffcc33);
+    /* Define gradient for the border */
+}
+
+.content {
+    background: white;
+    /* Background color for the content */
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
