@@ -2,4 +2,23 @@
     background-color: 1D1D1D;
     display: flex;
     justify-content: baseline;
- }
+    align-items: center;
+}
+
+.color{
+    color:#73EFEF;
+}
+
+.userIcon{
+    font-size: 30px;
+
+}
+
+.settingsIcon{
+    font-size: 25px;
+
+}
+
+.title{
+    font-size: 20px;
+}

@@ -13,6 +13,23 @@
     /* Define gradient for the border */
 }
 
+.box1{
+    background: linear-gradient(to bottom, #73EFEF, #73EFEF);
+}
+.box2{
+    background: linear-gradient(to bottom, #73EFEF, #2045E2);
+}
+.box3{
+    background: linear-gradient(to bottom, #9642EE, #DB5CCB);
+}
+.box4{
+    background: linear-gradient(to bottom, #DB5CCB, #EB3E83);
+}
+.box5{
+    background: linear-gradient(to bottom, #EB3E83, #EB3E83);
+}
+
+
 .content {
     background: white;
     /* Background color for the content */
