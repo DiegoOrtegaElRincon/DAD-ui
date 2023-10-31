@@ -42,7 +42,7 @@ export default function BottomNavBar() {
             </Link>
           </div>
           <div className='matches'>
-            <Link href="/matches">
+            <Link href="pages/(Layout)/Matches">
               <IconContext.Provider value={{ className: "matchesStyle color" }}>
                 <TfiLayoutListThumb />
               </IconContext.Provider>
