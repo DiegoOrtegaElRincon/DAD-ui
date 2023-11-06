@@ -1,12 +1,11 @@
-import React from 'react'
-import Layout from '../layout'
 import './main.css'
 import TopNavBar from '../../components/topNavBar/TopNavbar'
 import BottomNavBar from '../../components/bottomNavBar/BottomNavbar'
-export default function MainPage() {
+
+const MainPage = () => {
     return (
         <>
-            <TopNavBar title='Competitive Matches'/>
+            <TopNavBar title='Competitive Matches' />
             <div className="container">
                 <div className="box box1">
                     <div className="content">
@@ -28,7 +27,7 @@ export default function MainPage() {
                     </div>
                 </div>
                 <div className="box box2">
-                <div className="content">
+                    <div className="content">
                         <div className='top'>Competicion</div>
                         <div className='bottom'>
                             <div className='team1'>
@@ -47,7 +46,7 @@ export default function MainPage() {
                     </div>
                 </div>
                 <div className="box box3">
-                <div className="content">
+                    <div className="content">
                         <div className='top'>Competicion</div>
                         <div className='bottom'>
                             <div className='team1'>
@@ -66,7 +65,7 @@ export default function MainPage() {
                     </div>
                 </div>
                 <div className="box box4">
-                <div className="content">
+                    <div className="content">
                         <div className='top'>Competicion</div>
                         <div className='bottom'>
                             <div className='team1'>
@@ -85,7 +84,7 @@ export default function MainPage() {
                     </div>
                 </div>
                 <div className="box box5">
-                <div className="content">
+                    <div className="content">
                         <div className='top'>Competicion</div>
                         <div className='bottom'>
                             <div className='team1'>
@@ -104,7 +103,9 @@ export default function MainPage() {
                     </div>
                 </div>
             </div>
-            <BottomNavBar/>
+            <BottomNavBar />
         </>
     )
 }
+
+export default MainPage;
