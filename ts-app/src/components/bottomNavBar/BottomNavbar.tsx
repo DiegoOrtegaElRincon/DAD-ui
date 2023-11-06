@@ -4,8 +4,6 @@ import { SiGoogleanalytics } from 'react-icons/si'
 import { TbNews } from 'react-icons/tb'
 import { BsFillGrid3X3GapFill } from 'react-icons/bs'
 import { TfiLayoutListThumb } from 'react-icons/tfi'
-import { IconContext } from 'react-icons'
-import React from 'react'
 
 export default function BottomNavBar() {
   return (
@@ -13,39 +11,19 @@ export default function BottomNavBar() {
       <nav className="NavBar">
         <div className='menu'>
           <div className='home'>
-            <link href="/">
-              <IconContext.Provider value={{ className: "homeStyle color" }}>
-                <HiHome />
-              </IconContext.Provider>
-            </link>
+            <HiHome className="homeStyle color" href='/' />
           </div>
           <div className='statistics'>
-            <link href="/statistics">
-              <IconContext.Provider value={{ className: "statisticsStyle color" }}>
-                <SiGoogleanalytics />
-              </IconContext.Provider>
-            </link>
+            <SiGoogleanalytics className="statisticsStyle color" href='/statistics' />
           </div>
           <div className='news'>
-            <link href="/news">
-              <IconContext.Provider value={{ className: "newsStyle color" }}>
-                <TbNews />
-              </IconContext.Provider>
-            </link>
+            <TbNews className="newsStyle color" href='/news' />
           </div>
           <div className='strats'>
-            <link href="/strats">
-              <IconContext.Provider value={{ className: "stratsStyle color" }}>
-                <BsFillGrid3X3GapFill />
-              </IconContext.Provider>
-            </link>
+            <BsFillGrid3X3GapFill className="stratsStyle color" href='/strats' />
           </div>
           <div className='matches'>
-            <link href="pages/(Layout)/Matches">
-              <IconContext.Provider value={{ className: "matchesStyle color" }}>
-                <TfiLayoutListThumb />
-              </IconContext.Provider>
-            </link>
+            <TfiLayoutListThumb className="matchesStyle color" href='matches' />
           </div>
         </div>
       </nav>
