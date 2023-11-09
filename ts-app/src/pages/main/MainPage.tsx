@@ -5,8 +5,8 @@ import BottomNavBar from '../../components/bottomNavBar/BottomNavbar'
 const MainPage = () => {
     return (
         <>
-            <TopNavBar title='Competitive Matches' />
             <div className="container">
+                <TopNavBar title='Competitive Matches' />
                 <div className="box box1">
                     <div className="content">
                         <div className='top'>Competicion</div>
@@ -102,8 +102,8 @@ const MainPage = () => {
                         </div>
                     </div>
                 </div>
+                <BottomNavBar />
             </div>
-            <BottomNavBar />
         </>
     )
 }

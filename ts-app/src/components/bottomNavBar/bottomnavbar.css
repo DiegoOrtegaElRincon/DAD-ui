@@ -1,31 +1,44 @@
-.menu {
-   background-color: rgb(78, 78, 78);
+.bottom-container {
+   padding-top: 35px;
+}
+
+.BottomNavBar {
+   background-color: #1D1D1D;
    display: flex;
-   flex-direction: row;
-   justify-content: space-evenly;
-   align-items: baseline;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   z-index: 100;
+   /* Adjust the z-index as needed to ensure it appears above other content */
 }
 
-.color{
-   color:#73EFEF;
+.bottom-menu {
+   background-color: #1D1D1D;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
 }
 
-.homeStyle {
-   font-size: 30px;
+.home,
+.statistics,
+.news,
+.strats,
+.matches {
+   margin: 0 15px;
+   /* Agrega un margen horizontal de 10px entre los elementos */
 }
 
-.statisticsStyle {
-   font-size: 30px;
+.color {
+   color: #73EFEF;
 }
 
-.newsStyle {
-   font-size: 30px;
-}
-
-.stratsStyle {
-   font-size: 30px;
-}
-
-.matchesStyle{
+.homeStyle,
+.statisticsStyle,
+.newsStyle,
+.stratsStyle,
+.matchesStyle {
    font-size: 30px;
 }

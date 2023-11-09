@@ -1,7 +1,11 @@
 .container {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
     /* This sets the direction to be vertical, creating a single column. */
+    background-color: #070320;
+    padding: 2px 0;
 }
 
 .box {
@@ -9,8 +13,6 @@
     margin: 5px;
     border-radius: 5px;
     position: relative;
-    background: linear-gradient(to bottom, #ff5733, #ffcc33);
-    /* Define gradient for the border */
 }
 
 .box1 {
@@ -33,8 +35,11 @@
     background: linear-gradient(to bottom, #EB3E83, #EB3E83);
 }
 
+div {
+    color: white;;
+}
 .content {
-    background: #070320;
+    background: #1D1D1D;
     /* Background color for the content */
     border-radius: 5px;
     padding: 10px;
@@ -56,5 +61,5 @@
 }
 
 .team1, .schedule, .team2 {
-    padding: 0 5em; /* Add some padding to space the content */
+    margin: 0 8px; /* Add some padding to space the content */
   }

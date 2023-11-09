@@ -4,29 +4,38 @@ import { SiGoogleanalytics } from 'react-icons/si'
 import { TbNews } from 'react-icons/tb'
 import { BsFillGrid3X3GapFill } from 'react-icons/bs'
 import { TfiLayoutListThumb } from 'react-icons/tfi'
+import { Link } from 'react-router-dom';
 
 export default function BottomNavBar() {
   return (
-    <>
-      <nav className="NavBar">
-        <div className='menu'>
-          <div className='home'>
-            <HiHome className="homeStyle color" href='/' />
-          </div>
-          <div className='statistics'>
-            <SiGoogleanalytics className="statisticsStyle color" href='/statistics' />
-          </div>
-          <div className='news'>
-            <TbNews className="newsStyle color" href='/news' />
-          </div>
-          <div className='strats'>
-            <BsFillGrid3X3GapFill className="stratsStyle color" href='/strats' />
-          </div>
-          <div className='matches'>
-            <TfiLayoutListThumb className="matchesStyle color" href='matches' />
-          </div>
+    <nav className="BottomNavBar">
+      <div className='bottom-menu'>
+        <div className='home'>
+          <Link to="/">
+            <HiHome className="homeStyle color" />
+          </Link>
         </div>
-      </nav>
-    </>
-  )
+        <div className='statistics'>
+          <Link to="/statistics">
+            <SiGoogleanalytics className="statisticsStyle color" />
+          </Link>
+        </div>
+      </div>
+      <div className='news'>
+        <Link to="/news">
+          <TbNews className="newsStyle color" />
+        </Link>
+      </div>
+      <div className='strats'>
+        <Link to="/strats">
+          <BsFillGrid3X3GapFill className="stratsStyle color" />
+        </Link>
+      </div>
+      <div className='matches'>
+        <Link to="/matches">
+          <TfiLayoutListThumb className="matchesStyle color" />
+        </Link>
+      </div>
+    </nav >
+  );
 }
