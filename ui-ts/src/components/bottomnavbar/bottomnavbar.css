@@ -1,0 +1,46 @@
+.BottomNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #1D1D1D;
+}
+
+.home,
+.statistics,
+.news,
+.strats,
+.matches {
+    padding: 20px; /* Agregado para dar un espacio uniforme alrededor del contenido */
+}
+
+.home.selected,
+.statistics.selected,
+.news.selected,
+.strats.selected,
+.matches.selected {
+    background-color: Black; /* Cambiado el fondo al color rojo cuando está seleccionado */
+}
+
+/* Puedes ajustar el color y los estilos según tus necesidades */
+.home:hover,
+.statistics:hover,
+.news:hover,
+.strats:hover,
+.matches:hover {
+    background-color: #EB3E82; /* Cambiado el fondo al color gris oscuro cuando se pasa el cursor */
+}
+
+.icon {
+    color: white;
+    font-size: 50px;
+}
+
+/* Agregado estilo para cambiar el color del texto a blanco */
+
+
+/* Estilos para evitar solapamientos con el contenido principal */
