@@ -116,5 +116,6 @@ img{
     height: auto;
 }
 .container {
+    padding-top: 85px;
     padding-bottom: 100px; /* Ajusta según el tamaño de tu Bottom Navbar */
 }
