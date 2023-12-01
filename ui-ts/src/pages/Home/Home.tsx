@@ -15,10 +15,6 @@ import UCAM from '../../public/images/UCAM_Esports_Club_logo.png'
 
 const Home = () => {
 
-    const logos = {
-        Cloud9: "../../public/images/UCAM_Esports_Club_logo.png"
-    }
-
     return (
         <div className='main-container'>
             <TopNavbar props='Competitive Matches' />

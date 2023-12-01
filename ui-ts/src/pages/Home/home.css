@@ -100,7 +100,8 @@
 }
 
 .team-name {
-    font-size: 150%;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 /* Estilos para los divs day y hour dentro de schedule */
@@ -108,12 +109,16 @@
 .hour {
     display: flex;
     justify-content: center;
-    font-size: 100%;
+    font-weight: 600;
+}
+.day{
+    font-size: 20px;
 }
 
 img{
     width: 150px;
     height: auto;
+    margin: 5px 0px;
 }
 .container {
     padding-top: 85px;
