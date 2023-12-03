@@ -1,0 +1,89 @@
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #070320;
+    padding: 50% 0% ;
+}
+
+.box {
+    
+    width: 92%;
+    /* Ajusta el ancho según tus necesidades */
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2B2B2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.sbox{
+    text-align: center;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 25px 0px;
+    border-radius: 10px;
+    background-color: #2B2B2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos específicos para cada box */
+.box1 {
+    margin-top: 10px;
+    border: 2px solid #73EFEF;
+    font-size: 25px;
+}
+
+.box2 {
+    border: 2px solid #2045E2;
+    font-size: 25px;
+
+}
+
+.box3 {
+    border: 2px solid #9642EE;
+    font-size: 25px;
+}
+
+.box4 {
+    border: 2px solid #DB5CCB;
+    font-size: 25px;
+}
+
+.box5 {
+    margin-bottom: 7px;
+    border: 2px solid #EB3E82;
+    font-size: 25px;
+
+}
+
+.submit-button {
+    color: white;
+    font-size: 25px;
+    background-color: #EB3E82;
+    border: 2px solid #EB3E82;
+    border-radius: 5px;
+    width: 100%;
+    /* Ajusta el ancho según tus necesidades */
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.error-message{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
