@@ -1,0 +1,46 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #070320;
+    padding: 40% 0%;
+}
+
+.profile-box {
+    width: 92%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.team-info,
+.user-info {
+    width: 100%;
+    height: 100%;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: #2B2B2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.team-photo,
+.user-photo {
+    width: fit-content;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.profile-box>img {
+    width: 100px;
+    height: auto;
+}

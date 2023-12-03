@@ -19,6 +19,7 @@
 /* Estilos generales para los contenedores box */
 .box {
     width: 92%;
+    height: 100%;
     /* Ajusta el ancho según tus necesidades */
     margin: 5px 0px;
     padding: 10px;

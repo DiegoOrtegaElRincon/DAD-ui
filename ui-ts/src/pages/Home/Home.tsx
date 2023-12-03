@@ -24,7 +24,7 @@ const Home = () => {
                     <div className='bottom'>
                         <div className='team1'>
                             <div className='team-picture'>
-                                <img src={C9} />
+                                <img src={C9} alt='Team Image'/>
                             </div>
                             <div className='team-name'>C9</div>
                         </div>
@@ -34,7 +34,7 @@ const Home = () => {
                         </div>
                         <div className='team2'>
                             <div className='team-picture'>
-                                <img src={FPX} />
+                                <img src={FPX} alt='Team Image'/>
                             </div>
                             <div className='team-name'>FPX</div>
                         </div>
@@ -45,7 +45,7 @@ const Home = () => {
                     <div className='bottom'>
                         <div className='team1'>
                             <div className='team-picture'>
-                                <img src={G2} />
+                                <img src={G2} alt='Team Image'/>
                             </div>
                             <div className='team-name'>G2</div>
                         </div>
@@ -55,7 +55,7 @@ const Home = () => {
                         </div>
                         <div className='team2'>
                             <div className='team-picture'>
-                                <img src={Faze} />
+                                <img src={Faze} alt='Team Image'/>
                             </div>
                             <div className='team-name'>FAZE</div>
                         </div>
@@ -67,7 +67,7 @@ const Home = () => {
                     <div className='bottom'>
                         <div className='team1'>
                             <div className='team-picture'>
-                                <img src={FUT} />
+                                <img src={FUT} alt='Team Image'/>
                             </div>
                             <div className='team-name'>FUT</div>
                         </div>
@@ -77,7 +77,7 @@ const Home = () => {
                         </div>
                         <div className='team2'>
                             <div className='team-picture'>
-                                <img src={KRU} />
+                                <img src={KRU} alt='Team Image'/>
                             </div>
                             <div className='team-name'>KRU</div>
                         </div>
@@ -88,7 +88,7 @@ const Home = () => {
                     <div className='bottom'>
                         <div className='team1'>
                             <div className='team-picture'>
-                                <img src={NRG} />
+                                <img src={NRG} alt='Team Image'/>
                             </div>
                             <div className='team-name'>NRG</div>
                         </div>
@@ -98,7 +98,7 @@ const Home = () => {
                         </div>
                         <div className='team2'>
                             <div className='team-picture'>
-                                <img src={PRX} />
+                                <img src={PRX} alt='Team Image'/>
                             </div>
                             <div className='team-name'>PRX</div>
                         </div>
@@ -110,7 +110,7 @@ const Home = () => {
                     <div className='bottom'>
                         <div className='team1'>
                             <div className='team-picture'>
-                                <img src={UCAM} />
+                                <img src={UCAM} alt='Team Image'/>
                             </div>
                             <div className='team-name'>UCAM</div>
                         </div>
@@ -120,7 +120,7 @@ const Home = () => {
                         </div>
                         <div className='team2'>
                             <div className='team-picture'>
-                                <img src={TL} />
+                                <img src={TL} alt='Team Image'/>
                             </div>
                             <div className='team-name'>TL</div>
                         </div>
