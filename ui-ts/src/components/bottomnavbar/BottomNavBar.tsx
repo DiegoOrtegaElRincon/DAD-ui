@@ -54,7 +54,7 @@ const BottomNavbar = () => {
           <TbNews className="icon" />
         </Link>
       </div>
-      <div
+      {/* <div
         className={`strats ${selectedIcon === 'strats' ? 'selected' : ''}`}
         onClick={() => handleIconClick('strats')}
         onMouseEnter={() => handleIconHover('strats')}
@@ -63,7 +63,7 @@ const BottomNavbar = () => {
         <Link to="/strats">
           <BsFillGrid3X3GapFill className="icon" />
         </Link>
-      </div>
+      </div> */}
       <div
         className={`matches ${selectedIcon === 'matches' ? 'selected' : ''}`}
         onClick={() => handleIconClick('matches')}
