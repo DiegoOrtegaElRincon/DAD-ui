@@ -1,0 +1,14 @@
+.list-box {
+    width: 92%;
+    height: 100%;
+    /* Ajusta el ancho según tus necesidades */
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2B2B2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

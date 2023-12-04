@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import LoginForm from './pages/loginform/LoginForm';
-import SignupForm from './pages/signupform/SingupForm';
+import LoginForm from './pages/LoginForm/LoginForm';
+import SignupForm from './pages/SignUpForm/SingupForm';
 import Profile from './pages/Profile/Profile';
+import Statistics from './pages/Stats/Statistics';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/signup" element={<SignupForm />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/statistics" element={<Statistics />} />
       </Routes>
     </Router>
   );

@@ -3,7 +3,7 @@ import './signupForm.css';  // Asegúrate de tener un archivo CSS para tus estil
 import TopNavbar from '../../components/topnavbar/TopNavbar';
 import BottomNavbar from '../../components/bottomnavbar/BottomNavBar';
 import { Navigate, useNavigate } from 'react-router-dom';
-import LoginForm from '../loginform/LoginForm';
+import LoginForm from '../LoginForm/LoginForm';
 
 const SignupForm: React.FC = () => {
     const [username, setUsername] = useState<string>('');
