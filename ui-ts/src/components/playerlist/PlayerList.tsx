@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './PlayerList.css'
+import './PlayerList.css';
 
 interface Player {
   name: string;
@@ -34,15 +34,17 @@ const PlayerList: React.FC = () => {
     setPlayers(jsonData);
   }, []);
 
-  const filteredPlayers = players.filter((player) =>
-    player.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredPlayers = players
+    .filter((player) =>
+      player.name.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+    .sort((a, b) => b.points - a.points); // Ordenar por puntos de forma descendente
 
   return (
     <div className='container'>
       <input
-        type="text"
-        placeholder="Search by name"
+        type='text'
+        placeholder='Search by name'
         className='box box1'
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
@@ -50,7 +52,7 @@ const PlayerList: React.FC = () => {
       <ul>
         {filteredPlayers.map((player, index) => (
           <li key={index} className='list-box box1'>
-            {player.points}{' '}{player.rank}{' '}{player.name}
+            {player.points} {player.rank} {player.name}
           </li>
         ))}
       </ul>
