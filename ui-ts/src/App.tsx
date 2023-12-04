@@ -5,6 +5,7 @@ import SignupForm from './pages/SignUpForm/SingupForm';
 import Profile from './pages/Profile/Profile';
 import Statistics from './pages/Stats/Statistics';
 import News from './pages/News/News';
+import YourMatches from './pages/Matches/YourMatches';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/statistics" element={<Statistics />} />
         <Route path="/news" element={<News />} />
+        <Route path="/matches" element={<YourMatches />} />
       </Routes>
     </Router>
   );
